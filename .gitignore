@@ -1,0 +1,26 @@
+# editor files
+*.swp
+
+# rcov generated
+coverage
+
+# rdoc generated
+rdoc
+
+# yard generated
+doc
+.yardoc
+
+# bundler
+.bundle
+
+# jeweler generated
+pkg
+
+# image files
+*.img
+*.tgz
+tmp*
+
+# firmware files
+firmware/*
