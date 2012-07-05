@@ -1,8 +1,14 @@
 # FreeBSD Raspbery Pi Image Builder #
 
-This builder creates pre-prepared SD cards for the Raspbery PI, based on the official Debian build provided by the Raspbery PI foundation. However it also includes several customisations, aimed at supporting the use of the Raspbery PI within the Networking Labs, at the Department of Computing at Sheffield Hallam University.
+This builder creates disk images, which can then be used prepare SD cards for the Raspbery PI. Instead of transferring a pre-prepared image file to the SD card, this build tool focus only the on the process of creating, formatting and preparing a disk image. The images created using this tool can then be treated like any other disk image, and transferred to the Pi in the [usual way](http://elinux.org/RPi_Easy_SD_Card_Setup),
 
-**Note:** This means this build is *not* suitable as a general-use/media machine. We don't have any graphical interfaces or other applications you will find in other builds. If you are not interested in something that might fall under the title "embedded router", please try [something else][http://www.raspberrypi.org/downloads].
+The aim of this tool is to quickly prepare customised card images, to allow the Pi boards to be used in different teaching sessions within the Networking Labs, at the Department of Computing at Sheffield Hallam University. We treat the SD Cards as somewhat disposable, swapping cards to change the functionality of the Pi boards. This requires access to a library of suitable images: which this tool aims to help create.
+
+**Note:** This means this build is *not* suitable as a general-use/media machine. We assume the data on the SD card is either disposable, or located on the network somewhere. You might be able to build and image which is suitable as a general use machine, but you might want to try [something else](http://www.raspberrypi.org/downloads).
+
+# Where Next? #
+
+Unless you are interested in contributing to the tool, you probably want to be somewhere else. For more details of how to install, and use, this tool please see the [Wiki](http://github.com/dlove24/pi-bake/wiki). If you are interested in contributing, you can also find details of the inner workings [here](http://dlove24.github.com). Ideas, changes, and patches are always welcome.
 
 # Contributing to pi-bake #
  
